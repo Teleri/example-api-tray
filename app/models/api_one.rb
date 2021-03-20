@@ -1,0 +1,2 @@
+class ApiOne < ApplicationRecord
+end
