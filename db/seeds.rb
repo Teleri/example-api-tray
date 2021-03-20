@@ -1,3 +1,16 @@
+Twilio.delete_all
+Aircall.delete_all
+Asana.delete_all
+Kissflow.delete_all
+Gusto.delete_all
+Gitlab.delete_all
+Rydoo.delete_all
+Stripe.delete_all
+Postman.delete_all
+Casavi.delete_all
+
+puts "Emptied Database"
+
 10.times do
   newtwilio = Twilio.create(data: "Twilio API Data")
   newaircall = Aircall.create(data: "Aircall API Data")
