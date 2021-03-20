@@ -1,0 +1,2 @@
+class Kissflow < ApplicationRecord
+end

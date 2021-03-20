@@ -1,0 +1,2 @@
+class Casavi < ApplicationRecord
+end

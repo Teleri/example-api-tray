@@ -1,0 +1,2 @@
+class Twilio < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class Rydoo < ApplicationRecord
+end

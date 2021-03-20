@@ -1,0 +1,2 @@
+class Aircall < ApplicationRecord
+end

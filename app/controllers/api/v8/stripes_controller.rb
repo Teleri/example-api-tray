@@ -1,10 +1,10 @@
 require'date'
 
-class Api::V1::ApiOnesController < ApplicationController
+class Api::V8::StripesController < ApplicationController
   def index
-    @api_ones = ApiOne.all
+    @stripes = Stripe.all
     response.set_header('Sunset', DateTime.new(2021,3,21,12,0,0))
     response.set_header('Deprecated', false)
-    render json: @api_ones
+    render json: @stripes
   end
 end
