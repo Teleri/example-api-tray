@@ -18,7 +18,7 @@ puts ".."
 puts "Creating fake API data.."
 
 Twilio.create(name: "twilio", url: "https://example-api-tray.herokuapp.com/api/v1/twilios", has_sunset: true, is_deprecated: false, sunset_date: DateTime.new(2021,10,01,12,0,0))
-Aircall.create(name: "aircalls", url: "https://example-api-tray.herokuapp.com/api/v2/aircalls", has_sunset: true, is_deprecated: false, sunset_date: DateTime.new(2023,10,01,12,0,0) )
+Aircall.create(name: "aircalls", url: "https://example-api-tray.herokuapp.com/api/v2/aircalls", has_sunset: true, is_deprecated: false, sunset_date: DateTime.new(2023,10,01,12,0,0))
 Asana.create(name: "asanas", url: "https://example-api-tray.herokuapp.com/api/v3/asanas", has_sunset: true, is_deprecated: false, sunset_date: DateTime.new(2021,04,07,12,0,0))
 Kissflow.create(name: "kissflows", url: "https://example-api-tray.herokuapp.com/api/v4/kissflows", has_sunset: false, is_deprecated: true, sunset_date: nil )
 Gusto.create(name: "gustos", url: "https://example-api-tray.herokuapp.com/api/v5/gustos", has_sunset: true, is_deprecated: false, sunset_date: DateTime.new(2022,01,31,12,0,0))
